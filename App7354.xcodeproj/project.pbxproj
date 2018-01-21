@@ -12,16 +12,19 @@
 		2C2516F52015056600C4579A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2516F32015056600C4579A /* Main.storyboard */; };
 		2C2516F72015056600C4579A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2516F62015056600C4579A /* Assets.xcassets */; };
 		2C2516FA2015056600C4579A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2516F82015056600C4579A /* LaunchScreen.storyboard */; };
+		2C2517022015057300C4579A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2C2517012015057300C4579A /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C2516EC2015056600C4579A /* App3754.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App3754.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2516EC2015056600C4579A /* App7354.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App7354.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2516EF2015056600C4579A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C2516F12015056600C4579A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C2516F42015056600C4579A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C2516F62015056600C4579A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C2516F92015056600C4579A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C2516FB2015056600C4579A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2517012015057300C4579A /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		2C25170320150D4D00C4579A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +41,9 @@
 		2C2516E32015056600C4579A = {
 			isa = PBXGroup;
 			children = (
-				2C2516EE2015056600C4579A /* App3754 */,
+				2C25170320150D4D00C4579A /* README.md */,
+				2C2517012015057300C4579A /* Podfile */,
+				2C2516EE2015056600C4579A /* App7354 */,
 				2C2516ED2015056600C4579A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +51,12 @@
 		2C2516ED2015056600C4579A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C2516EC2015056600C4579A /* App3754.app */,
+				2C2516EC2015056600C4579A /* App7354.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C2516EE2015056600C4579A /* App3754 */ = {
+		2C2516EE2015056600C4579A /* App7354 */ = {
 			isa = PBXGroup;
 			children = (
 				2C2516EF2015056600C4579A /* AppDelegate.swift */,
@@ -61,15 +66,15 @@
 				2C2516F82015056600C4579A /* LaunchScreen.storyboard */,
 				2C2516FB2015056600C4579A /* Info.plist */,
 			);
-			path = App3754;
+			path = App7354;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C2516EB2015056600C4579A /* App3754 */ = {
+		2C2516EB2015056600C4579A /* App7354 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C2516FE2015056600C4579A /* Build configuration list for PBXNativeTarget "App3754" */;
+			buildConfigurationList = 2C2516FE2015056600C4579A /* Build configuration list for PBXNativeTarget "App7354" */;
 			buildPhases = (
 				2C2516E82015056600C4579A /* Sources */,
 				2C2516E92015056600C4579A /* Frameworks */,
@@ -79,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = App3754;
+			name = App7354;
 			productName = App3754;
-			productReference = 2C2516EC2015056600C4579A /* App3754.app */;
+			productReference = 2C2516EC2015056600C4579A /* App7354.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C2516E72015056600C4579A /* Build configuration list for PBXProject "App3754" */;
+			buildConfigurationList = 2C2516E72015056600C4579A /* Build configuration list for PBXProject "App7354" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C2516EB2015056600C4579A /* App3754 */,
+				2C2516EB2015056600C4579A /* App7354 */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +130,7 @@
 			files = (
 				2C2516FA2015056600C4579A /* LaunchScreen.storyboard in Resources */,
 				2C2516F72015056600C4579A /* Assets.xcassets in Resources */,
+				2C2517022015057300C4579A /* Podfile in Resources */,
 				2C2516F52015056600C4579A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -303,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C2516E72015056600C4579A /* Build configuration list for PBXProject "App3754" */ = {
+		2C2516E72015056600C4579A /* Build configuration list for PBXProject "App7354" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C2516FC2015056600C4579A /* Debug */,
@@ -312,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C2516FE2015056600C4579A /* Build configuration list for PBXNativeTarget "App3754" */ = {
+		2C2516FE2015056600C4579A /* Build configuration list for PBXNativeTarget "App7354" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C2516FF2015056600C4579A /* Debug */,
