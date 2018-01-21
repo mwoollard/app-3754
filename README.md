@@ -1,12 +1,11 @@
 #  CocoaPods Issue [7354](https://github.com/CocoaPods/CocoaPods/issues/7354)
-To reproduce this issue which is specific to 1.4.0
+To reproduce this issue with 1.4.0:
 
 ```
 $ pod --version
 1.4.0
 $ git clone https://github.com/mwoollard/app-7354.git
 $ cd app-7354
-$ pod install
 $ pod install
 Analyzing dependencies
 Downloading dependencies
@@ -20,9 +19,9 @@ Integrating client project
 Sending stats
 Pod installation complete! There is 1 dependency from the Podfile and 3 total pods installed.
 ```
-Pod `Core` from the master repo has been installed even though their is a pod `Core` in the private repo that is specified first.
+Pod **Core** from the master repo has been integrated even though there is a matching pod **Core** available in the private repo specified first in the Podfile.
 
-Now edit Podfile to swap commented lines so
+Now edit the Podfile so:
 
 ```
 pod 'Core'
@@ -63,7 +62,4 @@ Integrating client project
 Sending stats
 Pod installation complete! There is 1 dependency from the Podfile and 1 total pod installed.
 ```
-This time `Core` from the private repo is integrated.
-
-
-
+This time **Core** from the private repo is integrated.
