@@ -62,4 +62,4 @@ Integrating client project
 Sending stats
 Pod installation complete! There is 1 dependency from the Podfile and 1 total pod installed.
 ```
-This time **Core** from the private repo is integrated.
+This time **Core** from the private repo is integrated. Prior to 1.4.0 (including 1.4.0rc1) **Core** from the private repo would be integrated without the version specification in the Podfile. This earlier behaviour I believe is correct.
